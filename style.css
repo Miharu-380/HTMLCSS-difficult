@@ -60,7 +60,6 @@ header {
 
 #portfolio {
   background-color: #ECEFF1;
-
 }
 
 .heading {
@@ -131,22 +130,129 @@ header {
   background-image: url(img/webcamp-mother.png);
 }
 
-.production-group2 {
+.strength-group {
   display: flex;
-  flex-flow: row wrap;
   width: 980px;
   padding-top: 30px;
   padding-bottom: 90px;
   margin: 0 auto;
 }
 
-.production2 {
+.strength {
   width: 320px;
   margin-right: 10px;
-  background-size: cover;
-  background-position: center;
+  font-size: 60px;
+  text-align: center;
 }
 
-.production2:last-child {
+.strength:last-child {
   margin-right: 0;
+}
+
+.strength-title {
+  font-size: 20px;
+  color: #000000;
+  margin: 10px auto;
+}
+
+.strength-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+#profile {
+  background-color: #ECEFF1;
+}
+
+.profile-group {
+  display: flex;
+  width: 1024px;
+  padding-top: 30px;
+  padding-bottom: 90px;
+  margin: 0 auto;
+}
+
+.face-image {
+  width: 512px;
+}
+
+.face {
+  width: 250px;
+  height: 250px;
+  background-image: url(img/my-icon.jpg);
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.introduction {
+  text-align: left;
+  width: 512px;
+}
+
+.myname-title {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.myname-text {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.myskills-title {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.myskills-text {
+  font-size: 16px;
+  color: #000000;
+}
+
+.contact-group {
+  display: flex;
+  
+  width: 800px;
+  padding-top: 30px;
+  padding-bottom: 90px;
+  margin: 0 auto;
+}
+
+.left-content {
+  width: 50%;
+}
+
+.left-contact-content {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 20px;
+  margin: 20px 0 5px 0 ;
+}
+
+.title:first-child {
+  margin-top: 0;
+}
+
+.right-content {
+  width: 50%;
+}
+
+.right-contact-content {
+  width: 170px;
+  margin: 0 auto;
+}
+
+.mail-title {
+  margin: 0 auto;
+}
+
+.sns {
+  
 }
